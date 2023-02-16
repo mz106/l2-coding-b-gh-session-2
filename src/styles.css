@@ -1,23 +1,57 @@
+
+:root {
+    --bg-color: #1c1c1c;
+    --primary-color: #f5b32f;
+    --secondary-color: #ffffff;
+    --font-family: 'Roboto', sans-serif;
+}
+
 /* ========== Home =========== */
 
 /* ======== header ======== */
+.footer{
+    display: flex;
+justify-content: space-evenly;
+    border-style: solid;
+    color: #C31C2C;
+    background-color: #C31C2C;
+    width: 100%;
+    height: 50px;
+    padding-bottom:  55px;
+    
+    
+    margin: 0%;
+    margin-top: 1px;
+}
 
-/* ======== middle ======== */
 
-/* ======== footer ======== */
 
-/* ========== About =========== */
 
-/* ======== header ======== */
+ul {
+    text-decoration: none;
+    list-style-type: none;
 
-/* ======== middle ======== */
 
-/* ======== footer ======== */
+    width: 200px;
+    
+  }
+li {
 
-/* ========== Contact =========== */
+    display:inline;
+    color: #ffffff;
+    text-decoration: none;
+    height: 15px;
 
-/* ======== header ======== */
+  }
 
-/* ======== middle ======== */
+a, a:focus, a:active{
+text-decoration: #ffffff;   
+color: #ffffff;
+
+}
+a:hover{
+    text-decoration: black;
+    color: black;
+}
 
 /* ======== footer ======== */

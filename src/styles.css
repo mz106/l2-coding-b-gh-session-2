@@ -49,6 +49,17 @@
   }
 /* ======== middle ======== */
 
+  p {
+    font-family: var(--font-family);
+    text-align: justify;
+  }
+
+  img{
+    max-width:1000px;
+    width: auto;
+    height:auto
+  }
+
 /* ======== footer ======== */
 
 /* ========== Contact =========== */

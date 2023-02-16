@@ -46,7 +46,7 @@ body {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 45px;
-    padding: 30px;
+    padding: 10%;
     margin: auto;
   }
 /* ======== middle ======== */
@@ -54,12 +54,16 @@ body {
   p {
     font-family: var(--font-family);
     text-align: justify;
+    color: var(--secondary-color);
+    padding: 10%;
   }
 
   img{
-    max-width:1000px;
+    max-width: 70%;
     width: auto;
-    height:auto
+    height:auto;
+    margin: auto;
+    padding: 15%
   }
 
 /* ======== footer ======== */

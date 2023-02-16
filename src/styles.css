@@ -9,8 +9,9 @@
 
 /* ======== header ======== */
 .links{
-    --font-family: 'roboto', sans-serif
-    var(--primary-color)
+    --font-family: 'roboto', sans-serif;
+    color: var(--primary-color);
+    font-size: 25px;
     
 }
 

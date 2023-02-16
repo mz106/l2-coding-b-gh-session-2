@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -51,3 +52,13 @@ footer{
     margin-left: 0 auto;
     align-items: center;
   }
+
+.header {
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: left;
+    color: chartreuse;
+}
+
+/* Header above here */
+

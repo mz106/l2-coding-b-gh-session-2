@@ -14,7 +14,9 @@
 /* ======== footer ======== */
 
 /* ========== About =========== */
-
+body {
+    background-color: var(--bg-color);
+}
 /* ======== header ======== */
 .topnav  {
     background-color: var(--primary-color);

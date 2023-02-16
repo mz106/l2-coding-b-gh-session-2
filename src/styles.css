@@ -8,6 +8,12 @@
 /* ========== Home =========== */
 
 /* ======== header ======== */
+.links{
+    --font-family: 'roboto', sans-serif;
+    color: var(--primary-color);
+    font-size: 25px;
+    
+}
 
 /* ======== middle ======== */
 

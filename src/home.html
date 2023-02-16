@@ -6,10 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
   </head>
+  <html>
   <body>
     <!-- ======== Header - start ========= -->
 
     <!-- ======== Header - end ========= -->
+
+<head>
+	<title>Welcome</title>
+	<style>
+		/* Style for splash screen */
+		#splash {
+			position: fixed;
+			z-index: 9999;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #1c1c1c;
+			display: flex;
+			flex-direction: column;
+      font-family: 'Roboto', sans-serif;
+			align-items: center;
+			justify-content: center;
+			font-size: 30px;
+			color: #f5b32f;
+		}
+		/* Style for close button */
+		#close-btn {
+			margin-top: 20px;
+			padding: 10px 20px;
+			background-color: #1c1c1c;
+			color: #f5b32f;
+			font-size: 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<!-- Splash screen -->
+	<div id="splash">
+		<p>Welcome to the website</p>
+		<p>Please press close to continue...</p>
+		<button id="close-btn">Close</button>
+	</div>
+
+	<!-- Your website content goes here -->
+	<!-- ... -->
+
+	<!-- JavaScript to close splash screen when close button is clicked -->
+	<script>
+		window.addEventListener('load', function(){
+			var splash = document.getElementById('splash');
+			var closeBtn = document.getElementById('close-btn');
+			closeBtn.addEventListener('click', function(){
+				splash.style.display = 'none';
+			});
+		});
+	</script>
+</body>
+</html>
 
     <!-- ======== Middle - start ========= -->
 

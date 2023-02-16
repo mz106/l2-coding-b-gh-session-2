@@ -23,7 +23,35 @@
 
 /* ========== Contact =========== */
 
+.topnav {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content:center;
+}
 
+li {
+    color:#1c1c1c;
+    padding: 0px;
+    font-size: 40px;
+    list-style-type: none;
+    font-family: var(--font-family);
+    font-weight:100;
+}
+/* Change the color of links on hover */
+
+a:hover {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+h1 {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-weight:500;
+    font-size: 45px;
+    padding: 30px;
+    margin: auto;
+}
 
 /* ======== header ======== */
 
